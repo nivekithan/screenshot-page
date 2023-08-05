@@ -1,0 +1,16 @@
+name = "screenshot_api_sdk"
+main = "src/index.ts"
+
+compatibility_date = "2023-07-27"
+compatibility_flags = ["nodejs_compat"]
+
+browser = {binding = "BROWSER", type = "browser"}
+account_id = "1f4fab15534b33d32411794c9e05555f"
+workers_dev=true
+
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "prod-responsive-screenshot"
+preview_bucket_name = "dev-responsive-screenshot"
+
