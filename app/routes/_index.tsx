@@ -115,7 +115,7 @@ export default function Index() {
   const actionData = useActionData<typeof action>();
 
   return (
-    <main className="grid place-items-center py-10">
+    <main className="grid place-items-center py-10 min-h-screen">
       <Card className="min-w-[500px]">
         <CardHeader>
           <CardTitle>Take Screenshot of any website</CardTitle>
